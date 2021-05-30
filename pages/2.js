@@ -133,7 +133,7 @@ export default function Home() {
               value={word8}
               onChange={(e) => setWord8(e.target.value)}
             />
-            {word8 === List2[7] ? "Good Job!" : ""}
+            {word8 === List2[7] ? "Perfect!" : ""}
           </div>
           <div className={styles.card}>
             <a href="25.mp3" target="_blank">
@@ -146,7 +146,7 @@ export default function Home() {
               value={word9}
               onChange={(e) => setWord9(e.target.value)}
             />
-            {word9 === List2[8] ? "Good Job!" : ""}
+            {word9 === List2[8] ? "Correct!" : ""}
           </div>
           <div className={styles.card}>
             <a href="26.mp3" target="_blank">
@@ -162,7 +162,7 @@ export default function Home() {
             {word10 === List2[9] ? "Good Job!" : ""}
           </div>
           <Link href="3">
-            <a className={styles.card}>
+            <a className={styles.cardHome}>
               <h1>Go to list 3</h1>
               <Image src="/arrow.png" width="40" height="40" />
             </a>

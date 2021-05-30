@@ -6,7 +6,7 @@ import React from "react";
 import TextField from "@material-ui/core/TextField";
 import { Grid } from "@material-ui/core";
 import Link from "next/link";
-import { List4 } from "../util/config";
+import { List5 } from "../util/config";
 
 export default function Home() {
   const [word1, setWord1] = useState();
@@ -18,16 +18,15 @@ export default function Home() {
   const [word7, setWord7] = useState();
   const [word8, setWord8] = useState();
   const [word9, setWord9] = useState();
-  const [word10, setWord10] = useState();
 
   return (
     <div className={styles.container}>
       <Head>
-        <title>List 4</title>
+        <title>List 5</title>
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>List 4</h1>
+        <h1 className={styles.title}>List 5</h1>
         <Grid container direction="row" justify="center" alignItems="center">
           <div className={styles.card}>
             <a href="48.mp3" target="_blank">
@@ -41,7 +40,7 @@ export default function Home() {
               onChange={(e) => setWord1(e.target.value)}
             />
 
-            {word1 === List4[0] ? "Good Job!" : ""}
+            {word1 === List5[0] ? "Good Job!" : ""}
           </div>
           <div className={styles.card}>
             <a href="49.mp3" target="_blank">
@@ -54,7 +53,7 @@ export default function Home() {
               value={word2}
               onChange={(e) => setWord2(e.target.value)}
             />
-            {word10 === List4[1] ? "Good Job!" : ""}
+            {word2 === List5[1] ? "Good Job!" : ""}
           </div>
           <div className={styles.card}>
             <a href="50.mp3" target="_blank">
@@ -67,7 +66,7 @@ export default function Home() {
               value={word3}
               onChange={(e) => setWord3(e.target.value)}
             />
-            {word10 === List4[2] ? "Good Job!" : ""}
+            {word3 === List5[2] ? "Good Job!" : ""}
           </div>
           <div className={styles.card}>
             <a href="51.mp3" target="_blank">
@@ -80,7 +79,7 @@ export default function Home() {
               value={word4}
               onChange={(e) => setWord4(e.target.value)}
             />
-            {word10 === List4[3] ? "Good Job!" : ""}
+            {word4 === List5[3] ? "Good Job!" : ""}
           </div>
           <div className={styles.card}>
             <a href="52.mp3" target="_blank">
@@ -93,7 +92,7 @@ export default function Home() {
               value={word5}
               onChange={(e) => setWord5(e.target.value)}
             />
-            {word10 === List4[4] ? "Good Job!" : ""}
+            {word5 === List5[4] ? "Good Job!" : ""}
           </div>
           <div className={styles.card}>
             <a href="53.mp3" target="_blank">
@@ -106,7 +105,7 @@ export default function Home() {
               value={word6}
               onChange={(e) => setWord6(e.target.value)}
             />
-            {word10 === List4[5] ? "Good Job!" : ""}
+            {word6 === List5[5] ? "Good Job!" : ""}
           </div>
           <div className={styles.card}>
             <a href="54.mp3" target="_blank">
@@ -119,7 +118,7 @@ export default function Home() {
               value={word7}
               onChange={(e) => setWord7(e.target.value)}
             />
-            {word10 === List4[6] ? "Good Job!" : ""}
+            {word7 === List5[6] ? "Good Job!" : ""}
           </div>
           <div className={styles.card}>
             <a href="55.mp3" target="_blank">
@@ -132,7 +131,7 @@ export default function Home() {
               value={word8}
               onChange={(e) => setWord8(e.target.value)}
             />
-            {word10 === List4[7] ? "Good Job!" : ""}
+            {word8 === List5[7] ? "Good Job!" : ""}
           </div>
           <div className={styles.card}>
             <a href="56.mp3" target="_blank">
@@ -145,24 +144,11 @@ export default function Home() {
               value={word9}
               onChange={(e) => setWord9(e.target.value)}
             />
-            {word10 === List4[8] ? "Good Job!" : ""}
-          </div>
-          <div className={styles.card}>
-            <a href="57.mp3" target="_blank">
-              <Image src="/sound.png" width="30" height="30" />
-            </a>
-            <TextField
-              id="standard-basic"
-              label="Word 57"
-              multiline
-              value={word10}
-              onChange={(e) => setWord10(e.target.value)}
-            />
-            {word10 === List4[9] ? "Good Job!" : ""}
+            {word9 === List5[8] ? "Good Job!" : ""}
           </div>
           <Link href="/">
-            <a className={styles.card}>
-              <h1>Go to back home</h1>
+            <a className={styles.cardHome}>
+              <h1>Go back home</h1>
             </a>
           </Link>
         </Grid>

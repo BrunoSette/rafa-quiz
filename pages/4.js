@@ -161,7 +161,7 @@ export default function Home() {
             {word10 === List4[9] ? "Good Job!" : ""}
           </div>
           <Link href="5">
-            <a className={styles.card}>
+            <a className={styles.cardHome}>
               <h1>Go to list 5</h1>
               <Image src="/arrow.png" width="40" height="40" />
             </a>

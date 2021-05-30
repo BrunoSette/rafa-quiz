@@ -36,9 +36,12 @@ export default function Home() {
         <h1 className={styles.title}>High Frequency Words 🥰</h1>
         <Grid container direction="row" justify="center" alignItems="center">
           <div className={styles.card}>
-            <a href="1.mp3" target="_blank">
-              <Image src="/sound.png" width="30" height="30" />
-            </a>
+            <Image
+              src="/sound.png"
+              width="30"
+              height="30"
+              onClick={() => audio.play()}
+            />
             <TextField
               id="standard-basic"
               label="Word 1"
@@ -171,7 +174,7 @@ export default function Home() {
             </a>
             <TextField
               id="standard-basic"
-              label="Word 10"
+              label="Word 11"
               multiline
               value={word11}
               onChange={(e) => setWord11(e.target.value)}
@@ -245,7 +248,7 @@ export default function Home() {
           </div> */}
 
           <Link href="2">
-            <a className={styles.card}>
+            <a className={styles.cardHome}>
               <h1>Go to list 2</h1>
               <Image src="/arrow.png" width="40" height="40" />
             </a>

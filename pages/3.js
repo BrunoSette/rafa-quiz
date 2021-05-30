@@ -68,7 +68,7 @@ export default function Home() {
               value={word3}
               onChange={(e) => setWord3(e.target.value)}
             />
-            {word10 === List3[2] ? "Good Job!" : ""}
+            {word3 === List3[2] ? "Good Job!" : ""}
           </div>
           <div className={styles.card}>
             <a href="30.mp3" target="_blank">
@@ -81,7 +81,7 @@ export default function Home() {
               value={word4}
               onChange={(e) => setWord4(e.target.value)}
             />
-            {word10 === List3[3] ? "Good Job!" : ""}
+            {word4 === List3[3] ? "Good Job!" : ""}
           </div>
           <div className={styles.card}>
             <a href="31.mp3" target="_blank">
@@ -94,7 +94,7 @@ export default function Home() {
               value={word5}
               onChange={(e) => setWord5(e.target.value)}
             />
-            {word10 === List3[4] ? "Good Job!" : ""}
+            {word5 === List3[4] ? "Good Job!" : ""}
           </div>
           <div className={styles.card}>
             <a href="32.mp3" target="_blank">
@@ -107,7 +107,7 @@ export default function Home() {
               value={word6}
               onChange={(e) => setWord6(e.target.value)}
             />
-            {word10 === List3[5] ? "Good Job!" : ""}
+            {word6 === List3[5] ? "Good Job!" : ""}
           </div>
           <div className={styles.card}>
             <a href="33.mp3" target="_blank">
@@ -120,7 +120,7 @@ export default function Home() {
               value={word7}
               onChange={(e) => setWord7(e.target.value)}
             />
-            {word10 === List3[6] ? "Good Job!" : ""}
+            {word7 === List3[6] ? "Good Job!" : ""}
           </div>
           <div className={styles.card}>
             <a href="34.mp3" target="_blank">
@@ -133,7 +133,7 @@ export default function Home() {
               value={word8}
               onChange={(e) => setWord8(e.target.value)}
             />
-            {word10 === List3[7] ? "Good Job!" : ""}
+            {word8 === List3[7] ? "Good Job!" : ""}
           </div>
           <div className={styles.card}>
             <a href="35.mp3" target="_blank">
@@ -146,7 +146,7 @@ export default function Home() {
               value={word9}
               onChange={(e) => setWord9(e.target.value)}
             />
-            {word10 === List3[8] ? "Good Job!" : ""}
+            {word9 === List3[8] ? "Good Job!" : ""}
           </div>
           <div className={styles.card}>
             <a href="36.mp3" target="_blank">
@@ -162,7 +162,7 @@ export default function Home() {
             {word10 === List3[9] ? "Good Job!" : ""}
           </div>
           <Link href="4">
-            <a className={styles.card}>
+            <a className={styles.cardHome}>
               <h1>Go to list 4</h1>
               <Image src="/arrow.png" width="40" height="40" />
             </a>
