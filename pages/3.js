@@ -6,6 +6,7 @@ import React from "react";
 import TextField from "@material-ui/core/TextField";
 import { Grid } from "@material-ui/core";
 import Link from "next/link";
+import { List3 } from "../util/config";
 
 export default function Home() {
   const [word1, setWord1] = useState();
@@ -30,7 +31,7 @@ export default function Home() {
         <h1 className={styles.title}>List 3</h1>
         <Grid container direction="row" justify="center" alignItems="center">
           <div className={styles.card}>
-            <a href="arcade.wav" target="_blank">
+            <a href="21.mp3" target="_blank">
               <Image src="/sound.png" width="30" height="30" />
             </a>
             <TextField
@@ -41,10 +42,10 @@ export default function Home() {
               onChange={(e) => setWord1(e.target.value)}
             />
 
-            {word1 === "arcade" ? "Good Job!" : ""}
+            {word1 === List3[0] ? "Good Job!" : ""}
           </div>
           <div className={styles.card}>
-            <a href="arcade.wav">
+            <a href="22.mp3" target="_blank">
               <Image src="/sound.png" width="30" height="30" />
             </a>
             <TextField
@@ -54,10 +55,10 @@ export default function Home() {
               value={word2}
               onChange={(e) => setWord2(e.target.value)}
             />
-            {word2 === "bright" ? "Good Job!" : ""}
+            {word2 === List3[1] ? "Good Job!" : ""}
           </div>
           <div className={styles.card}>
-            <a href="arcade.wav">
+            <a href="23.mp3" target="_blank">
               <Image src="/sound.png" width="30" height="30" />
             </a>
             <TextField
@@ -67,10 +68,10 @@ export default function Home() {
               value={word3}
               onChange={(e) => setWord3(e.target.value)}
             />
-            {word10 === "bright" ? "Good Job!" : ""}
+            {word10 === List3[2] ? "Good Job!" : ""}
           </div>
           <div className={styles.card}>
-            <a href="arcade.wav">
+            <a href="24.mp3" target="_blank">
               <Image src="/sound.png" width="30" height="30" />
             </a>
             <TextField
@@ -80,10 +81,10 @@ export default function Home() {
               value={word4}
               onChange={(e) => setWord4(e.target.value)}
             />
-            {word10 === "bright" ? "Good Job!" : ""}
+            {word10 === List3[3] ? "Good Job!" : ""}
           </div>
           <div className={styles.card}>
-            <a href="arcade.wav">
+            <a href="25.mp3" target="_blank">
               <Image src="/sound.png" width="30" height="30" />
             </a>
             <TextField
@@ -93,10 +94,10 @@ export default function Home() {
               value={word5}
               onChange={(e) => setWord5(e.target.value)}
             />
-            {word10 === "bright" ? "Good Job!" : ""}
+            {word10 === List3[4] ? "Good Job!" : ""}
           </div>
           <div className={styles.card}>
-            <a href="arcade.wav">
+            <a href="26.mp3" target="_blank">
               <Image src="/sound.png" width="30" height="30" />
             </a>
             <TextField
@@ -106,10 +107,10 @@ export default function Home() {
               value={word6}
               onChange={(e) => setWord6(e.target.value)}
             />
-            {word10 === "bright" ? "Good Job!" : ""}
+            {word10 === List3[5] ? "Good Job!" : ""}
           </div>
           <div className={styles.card}>
-            <a href="arcade.wav">
+            <a href="27.mp3" target="_blank">
               <Image src="/sound.png" width="30" height="30" />
             </a>
             <TextField
@@ -119,10 +120,10 @@ export default function Home() {
               value={word7}
               onChange={(e) => setWord7(e.target.value)}
             />
-            {word10 === "bright" ? "Good Job!" : ""}
+            {word10 === List3[6] ? "Good Job!" : ""}
           </div>
           <div className={styles.card}>
-            <a href="arcade.wav">
+            <a href="28.mp3" target="_blank">
               <Image src="/sound.png" width="30" height="30" />
             </a>
             <TextField
@@ -132,10 +133,10 @@ export default function Home() {
               value={word8}
               onChange={(e) => setWord8(e.target.value)}
             />
-            {word10 === "bright" ? "Good Job!" : ""}
+            {word10 === List3[7] ? "Good Job!" : ""}
           </div>
           <div className={styles.card}>
-            <a href="arcade.wav">
+            <a href="29.mp3" target="_blank">
               <Image src="/sound.png" width="30" height="30" />
             </a>
             <TextField
@@ -145,10 +146,10 @@ export default function Home() {
               value={word9}
               onChange={(e) => setWord9(e.target.value)}
             />
-            {word10 === "bright" ? "Good Job!" : ""}
+            {word10 === List3[8] ? "Good Job!" : ""}
           </div>
           <div className={styles.card}>
-            <a href="arcade.wav">
+            <a href="30.mp3" target="_blank">
               <Image src="/sound.png" width="30" height="30" />
             </a>
             <TextField
@@ -158,7 +159,7 @@ export default function Home() {
               value={word10}
               onChange={(e) => setWord10(e.target.value)}
             />
-            {word10 === "bright" ? "Good Job!" : ""}
+            {word10 === List3[9] ? "Good Job!" : ""}
           </div>
           <Link href="4">
             <a className={styles.card}>
