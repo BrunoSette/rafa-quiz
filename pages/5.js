@@ -23,6 +23,10 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>List 5</title>
+        <link
+          rel="shortcut icon"
+          href="https://assets.pokemon.com/static2/_ui/img/favicon.ico"
+        ></link>
       </Head>
 
       <main className={styles.main}>

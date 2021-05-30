@@ -24,6 +24,10 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>List 4</title>
+        <link
+          rel="shortcut icon"
+          href="https://assets.pokemon.com/static2/_ui/img/favicon.ico"
+        ></link>
       </Head>
 
       <main className={styles.main}>
@@ -54,7 +58,7 @@ export default function Home() {
               value={word2}
               onChange={(e) => setWord2(e.target.value)}
             />
-            {word10 === List4[1] ? "Good Job!" : ""}
+            {word2 === List4[1] ? "Good Job!" : ""}
           </div>
           <div className={styles.card}>
             <a href="39.mp3" target="_blank">
@@ -67,7 +71,7 @@ export default function Home() {
               value={word3}
               onChange={(e) => setWord3(e.target.value)}
             />
-            {word10 === List4[2] ? "Good Job!" : ""}
+            {word3 === List4[2] ? "Good Job!" : ""}
           </div>
           <div className={styles.card}>
             <a href="40.mp3" target="_blank">
@@ -80,7 +84,7 @@ export default function Home() {
               value={word4}
               onChange={(e) => setWord4(e.target.value)}
             />
-            {word10 === List4[3] ? "Good Job!" : ""}
+            {word4 === List4[3] ? "Good Job!" : ""}
           </div>
           <div className={styles.card}>
             <a href="41.mp3" target="_blank">
@@ -93,7 +97,7 @@ export default function Home() {
               value={word5}
               onChange={(e) => setWord5(e.target.value)}
             />
-            {word10 === List4[4] ? "Good Job!" : ""}
+            {word5 === List4[4] ? "Good Job!" : ""}
           </div>
           <div className={styles.card}>
             <a href="42.mp3" target="_blank">
@@ -106,7 +110,7 @@ export default function Home() {
               value={word6}
               onChange={(e) => setWord6(e.target.value)}
             />
-            {word10 === List4[5] ? "Good Job!" : ""}
+            {word6 === List4[5] ? "Good Job!" : ""}
           </div>
           <div className={styles.card}>
             <a href="43.mp3" target="_blank">
@@ -119,7 +123,7 @@ export default function Home() {
               value={word7}
               onChange={(e) => setWord7(e.target.value)}
             />
-            {word10 === List4[6] ? "Good Job!" : ""}
+            {word7 === List4[6] ? "Good Job!" : ""}
           </div>
           <div className={styles.card}>
             <a href="44.mp3" target="_blank">
@@ -132,7 +136,7 @@ export default function Home() {
               value={word8}
               onChange={(e) => setWord8(e.target.value)}
             />
-            {word10 === List4[7] ? "Good Job!" : ""}
+            {word8 === List4[7] ? "Good Job!" : ""}
           </div>
           <div className={styles.card}>
             <a href="45.mp3" target="_blank">
@@ -145,15 +149,15 @@ export default function Home() {
               value={word9}
               onChange={(e) => setWord9(e.target.value)}
             />
-            {word10 === List4[8] ? "Good Job!" : ""}
+            {word9 === List4[8] ? "Good Job!" : ""}
           </div>
           <div className={styles.card}>
-            <a href="47.mp3" target="_blank">
+            <a href="46.mp3" target="_blank">
               <Image src="/sound.png" width="30" height="30" />
             </a>
             <TextField
               id="standard-basic"
-              label="Word 47"
+              label="Word 46"
               multiline
               value={word10}
               onChange={(e) => setWord10(e.target.value)}

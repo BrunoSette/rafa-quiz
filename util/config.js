@@ -36,10 +36,10 @@ export const List3 = [
   "hyperbole",
   "limerick",
   "personification",
-  "syllable",
+  "syllable", //*
   "frigid",
   "amazing",
-  "whoosh",
+  "whoosh", //*
 ];
 
 export const List4 = [
@@ -55,7 +55,6 @@ export const List4 = [
   "clack",
 ];
 export const List5 = [
-  "personification",
   "repetition",
   "onomatopeia",
   "haiku",

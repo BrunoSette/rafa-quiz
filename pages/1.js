@@ -24,24 +24,25 @@ export default function Home() {
   const [word13, setWord13] = useState();
   const [word14, setWord14] = useState();
   const [word15, setWord15] = useState();
-  const [word16, setWord16] = useState();
 
   return (
     <div className={styles.container}>
       <Head>
         <title>High Frequency Words</title>
+        <link
+          rel="shortcut icon"
+          href="https://assets.pokemon.com/static2/_ui/img/favicon.ico"
+        ></link>
       </Head>
 
       <main className={styles.main}>
         <h1 className={styles.title}>High Frequency Words 🥰</h1>
         <Grid container direction="row" justify="center" alignItems="center">
           <div className={styles.card}>
-            <Image
-              src="/sound.png"
-              width="30"
-              height="30"
-              onClick={() => audio.play()}
-            />
+            <a href="1.mp3" target="_blank">
+              <Image src="/sound.png" width="30" height="30" />
+            </a>
+
             <TextField
               id="standard-basic"
               label="Word 1"
