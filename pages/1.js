@@ -19,15 +19,21 @@ export default function Home() {
   const [word8, setWord8] = useState();
   const [word9, setWord9] = useState();
   const [word10, setWord10] = useState();
+  const [word11, setWord11] = useState();
+  const [word12, setWord12] = useState();
+  const [word13, setWord13] = useState();
+  const [word14, setWord14] = useState();
+  const [word15, setWord15] = useState();
+  const [word16, setWord16] = useState();
 
   return (
     <div className={styles.container}>
       <Head>
-        <title>List 1</title>
+        <title>High Frequency Words</title>
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>List 1</h1>
+        <h1 className={styles.title}>High Frequency Words 🥰</h1>
         <Grid container direction="row" justify="center" alignItems="center">
           <div className={styles.card}>
             <a href="1.mp3" target="_blank">
@@ -159,6 +165,84 @@ export default function Home() {
             />
             {word10 === List1[9] ? "Nice!" : ""}
           </div>
+          <div className={styles.card}>
+            <a href="11.mp3" target="_blank">
+              <Image src="/sound.png" width="30" height="30" />
+            </a>
+            <TextField
+              id="standard-basic"
+              label="Word 10"
+              multiline
+              value={word11}
+              onChange={(e) => setWord11(e.target.value)}
+            />
+            {word11 === List1[10] ? "Nice!" : ""}
+          </div>
+          <div className={styles.card}>
+            <a href="12.mp3" target="_blank">
+              <Image src="/sound.png" width="30" height="30" />
+            </a>
+            <TextField
+              id="standard-basic"
+              label="Word 12"
+              multiline
+              value={word12}
+              onChange={(e) => setWord12(e.target.value)}
+            />
+            {word12 === List1[11] ? "Nice!" : ""}
+          </div>
+          <div className={styles.card}>
+            <a href="13.mp3" target="_blank">
+              <Image src="/sound.png" width="30" height="30" />
+            </a>
+            <TextField
+              id="standard-basic"
+              label="Word 13"
+              multiline
+              value={word13}
+              onChange={(e) => setWord13(e.target.value)}
+            />
+            {word13 === List1[12] ? "Nice!" : ""}
+          </div>
+          <div className={styles.card}>
+            <a href="14.mp3" target="_blank">
+              <Image src="/sound.png" width="30" height="30" />
+            </a>
+            <TextField
+              id="standard-basic"
+              label="Word 14"
+              multiline
+              value={word14}
+              onChange={(e) => setWord14(e.target.value)}
+            />
+            {word14 === List1[13] ? "Nice!" : ""}
+          </div>
+          <div className={styles.card}>
+            <a href="15.mp3" target="_blank">
+              <Image src="/sound.png" width="30" height="30" />
+            </a>
+            <TextField
+              id="standard-basic"
+              label="Word 15"
+              multiline
+              value={word15}
+              onChange={(e) => setWord15(e.target.value)}
+            />
+            {word15 === List1[14] ? "Nice!" : ""}
+          </div>
+          {/* <div className={styles.card}>
+            <a href="16.mp3" target="_blank">
+              <Image src="/sound.png" width="30" height="30" />
+            </a>
+            <TextField
+              id="standard-basic"
+              label="Word 16"
+              multiline
+              value={word16}
+              onChange={(e) => setWord16(e.target.value)}
+            />
+            {word16 === List1[15] ? "Nice!" : ""}
+          </div> */}
 
           <Link href="2">
             <a className={styles.card}>

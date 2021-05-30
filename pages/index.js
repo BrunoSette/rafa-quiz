@@ -11,9 +11,9 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>Welcome to Rafa's Quiz!</h1>
-        <p className={styles.description}>Lets practice</p>
-        {/* <Image src="/aba.jpg" width="400" height="200" /> */}
+        <h1 className={styles.title}>Welcome to Rafa's Quiz! 🚀</h1>
+        <p className={styles.description}>Lets practice spelling! 😍</p>
+        <Image src="/miuchu.jpeg" width="200" height="200" />
         <Grid container direction="row" justify="center" alignItems="center">
           <div className={styles.grid}>
             <a href="1" className={styles.cardHome}>
@@ -27,6 +27,9 @@ export default function Home() {
             </a>
             <a href="4" className={styles.cardHome}>
               <h2>List 4</h2>
+            </a>
+            <a href="5" className={styles.cardHome}>
+              <h2>List 5</h2>
             </a>
           </div>
         </Grid>

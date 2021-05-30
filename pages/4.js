@@ -30,85 +30,6 @@ export default function Home() {
         <h1 className={styles.title}>List 4</h1>
         <Grid container direction="row" justify="center" alignItems="center">
           <div className={styles.card}>
-            <a href="31.mp3" target="_blank">
-              <Image src="/sound.png" width="30" height="30" />
-            </a>
-            <TextField
-              id="standard-basic"
-              label="Word 31"
-              multiline
-              value={word1}
-              onChange={(e) => setWord1(e.target.value)}
-            />
-
-            {word1 === List4[0] ? "Good Job!" : ""}
-          </div>
-          <div className={styles.card}>
-            <a href="32.mp3" target="_blank">
-              <Image src="/sound.png" width="30" height="30" />
-            </a>
-            <TextField
-              id="standard-basic"
-              label="Word 32"
-              multiline
-              value={word2}
-              onChange={(e) => setWord2(e.target.value)}
-            />
-            {word10 === List4[1] ? "Good Job!" : ""}
-          </div>
-          <div className={styles.card}>
-            <a href="33.mp3" target="_blank">
-              <Image src="/sound.png" width="30" height="30" />
-            </a>
-            <TextField
-              id="standard-basic"
-              label="Word 33"
-              multiline
-              value={word3}
-              onChange={(e) => setWord3(e.target.value)}
-            />
-            {word10 === List4[2] ? "Good Job!" : ""}
-          </div>
-          <div className={styles.card}>
-            <a href="34.mp3" target="_blank">
-              <Image src="/sound.png" width="30" height="30" />
-            </a>
-            <TextField
-              id="standard-basic"
-              label="Word 34"
-              multiline
-              value={word4}
-              onChange={(e) => setWord4(e.target.value)}
-            />
-            {word10 === List4[3] ? "Good Job!" : ""}
-          </div>
-          <div className={styles.card}>
-            <a href="35.mp3" target="_blank">
-              <Image src="/sound.png" width="30" height="30" />
-            </a>
-            <TextField
-              id="standard-basic"
-              label="Word 35"
-              multiline
-              value={word5}
-              onChange={(e) => setWord5(e.target.value)}
-            />
-            {word10 === List4[4] ? "Good Job!" : ""}
-          </div>
-          <div className={styles.card}>
-            <a href="36.mp3" target="_blank">
-              <Image src="/sound.png" width="30" height="30" />
-            </a>
-            <TextField
-              id="standard-basic"
-              label="Word 36"
-              multiline
-              value={word6}
-              onChange={(e) => setWord6(e.target.value)}
-            />
-            {word10 === List4[5] ? "Good Job!" : ""}
-          </div>
-          <div className={styles.card}>
             <a href="37.mp3" target="_blank">
               <Image src="/sound.png" width="30" height="30" />
             </a>
@@ -116,10 +37,11 @@ export default function Home() {
               id="standard-basic"
               label="Word 37"
               multiline
-              value={word7}
-              onChange={(e) => setWord7(e.target.value)}
+              value={word1}
+              onChange={(e) => setWord1(e.target.value)}
             />
-            {word10 === List4[6] ? "Good Job!" : ""}
+
+            {word1 === List4[0] ? "Good Job!" : ""}
           </div>
           <div className={styles.card}>
             <a href="38.mp3" target="_blank">
@@ -129,10 +51,10 @@ export default function Home() {
               id="standard-basic"
               label="Word 38"
               multiline
-              value={word8}
-              onChange={(e) => setWord8(e.target.value)}
+              value={word2}
+              onChange={(e) => setWord2(e.target.value)}
             />
-            {word10 === List4[7] ? "Good Job!" : ""}
+            {word10 === List4[1] ? "Good Job!" : ""}
           </div>
           <div className={styles.card}>
             <a href="39.mp3" target="_blank">
@@ -142,10 +64,10 @@ export default function Home() {
               id="standard-basic"
               label="Word 39"
               multiline
-              value={word9}
-              onChange={(e) => setWord9(e.target.value)}
+              value={word3}
+              onChange={(e) => setWord3(e.target.value)}
             />
-            {word10 === List4[8] ? "Good Job!" : ""}
+            {word10 === List4[2] ? "Good Job!" : ""}
           </div>
           <div className={styles.card}>
             <a href="40.mp3" target="_blank">
@@ -155,14 +77,92 @@ export default function Home() {
               id="standard-basic"
               label="Word 40"
               multiline
+              value={word4}
+              onChange={(e) => setWord4(e.target.value)}
+            />
+            {word10 === List4[3] ? "Good Job!" : ""}
+          </div>
+          <div className={styles.card}>
+            <a href="41.mp3" target="_blank">
+              <Image src="/sound.png" width="30" height="30" />
+            </a>
+            <TextField
+              id="standard-basic"
+              label="Word 41"
+              multiline
+              value={word5}
+              onChange={(e) => setWord5(e.target.value)}
+            />
+            {word10 === List4[4] ? "Good Job!" : ""}
+          </div>
+          <div className={styles.card}>
+            <a href="42.mp3" target="_blank">
+              <Image src="/sound.png" width="30" height="30" />
+            </a>
+            <TextField
+              id="standard-basic"
+              label="Word 42"
+              multiline
+              value={word6}
+              onChange={(e) => setWord6(e.target.value)}
+            />
+            {word10 === List4[5] ? "Good Job!" : ""}
+          </div>
+          <div className={styles.card}>
+            <a href="43.mp3" target="_blank">
+              <Image src="/sound.png" width="30" height="30" />
+            </a>
+            <TextField
+              id="standard-basic"
+              label="Word 43"
+              multiline
+              value={word7}
+              onChange={(e) => setWord7(e.target.value)}
+            />
+            {word10 === List4[6] ? "Good Job!" : ""}
+          </div>
+          <div className={styles.card}>
+            <a href="44.mp3" target="_blank">
+              <Image src="/sound.png" width="30" height="30" />
+            </a>
+            <TextField
+              id="standard-basic"
+              label="Word 44"
+              multiline
+              value={word8}
+              onChange={(e) => setWord8(e.target.value)}
+            />
+            {word10 === List4[7] ? "Good Job!" : ""}
+          </div>
+          <div className={styles.card}>
+            <a href="45.mp3" target="_blank">
+              <Image src="/sound.png" width="30" height="30" />
+            </a>
+            <TextField
+              id="standard-basic"
+              label="Word 45"
+              multiline
+              value={word9}
+              onChange={(e) => setWord9(e.target.value)}
+            />
+            {word10 === List4[8] ? "Good Job!" : ""}
+          </div>
+          <div className={styles.card}>
+            <a href="47.mp3" target="_blank">
+              <Image src="/sound.png" width="30" height="30" />
+            </a>
+            <TextField
+              id="standard-basic"
+              label="Word 47"
+              multiline
               value={word10}
               onChange={(e) => setWord10(e.target.value)}
             />
             {word10 === List4[9] ? "Good Job!" : ""}
           </div>
-          <Link href="3">
+          <Link href="5">
             <a className={styles.card}>
-              <h1>Go to back to list 3</h1>
+              <h1>Go to list 5</h1>
               <Image src="/arrow.png" width="40" height="40" />
             </a>
           </Link>
