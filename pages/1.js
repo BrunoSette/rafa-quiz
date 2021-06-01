@@ -29,22 +29,22 @@ export default function Home() {
     let message = "";
     switch (randomNumber) {
       case 1:
-        message = "Good Job!";
+        message = "Good Job! 😍";
         break;
       case 2:
-        message = "Nice!";
+        message = "Nice! 🥰";
         break;
       case 3:
-        message = "Excellent!";
+        message = "Excellent! 😘";
         break;
       case 4:
-        message = "Perfect!";
+        message = "Perfect! ✨";
         break;
       case 5:
-        message = "Good!";
+        message = "Good! 🤜";
         break;
       default:
-        message = "Great!";
+        message = "Great! ❤️";
     }
     return (
       <div key={id} className={styles.card5}>
