@@ -1,4 +1,4 @@
-export const List1 = [
+export const List = [
   "cold",
   "line",
   "funny",
@@ -14,9 +14,6 @@ export const List1 = [
   "wind",
   "with",
   "warm",
-];
-
-export const List2 = [
   "poem",
   "figurative",
   "alliteration",
@@ -27,22 +24,16 @@ export const List2 = [
   "humorous",
   "jovial",
   "voom",
-];
-
-export const List3 = [
   "burp",
   "poetry",
   "rhyme",
   "hyperbole",
   "limerick",
   "personification",
-  "syllable", //*
+  "syllable",
   "frigid",
   "amazing",
-  "whoosh", //*
-];
-
-export const List4 = [
+  "whoosh",
   "imagery",
   "rhythm",
   "simile",
@@ -53,8 +44,6 @@ export const List4 = [
   "thrilling",
   "annoyed",
   "clack",
-];
-export const List5 = [
   "repetition",
   "onomatopeia",
   "haiku",
