@@ -6,32 +6,31 @@ import React from "react";
 import TextField from "@material-ui/core/TextField";
 import { Grid } from "@material-ui/core";
 import Link from "next/link";
-import { List } from "../util/config";
+import { list } from "../util/config";
 
 export default function Home() {
-  const [words, setWords] = useState([]);
+  const [words, setWords] = useState(
+    list.map((palavra, id) => ({ id, palavra, value: "" }))
+  );
 
-  const data = List.map((palavra, number) => {
+  const handleChangeWord = (event, index) => {
+    words[index].value = event.target.value;
+    setWords([...words]);
+  };
+
+  const data = words.map(({ id, palavra, value }, index) => {
     return (
-      <>
-        <div className={styles.card5}>
-          <a href={`${number + 1}.mp3`} target="_blank">
-            <Image src="/sound.png" width="30" height="30" />
-          </a>
-          <TextField
-            label={`Word ${number + 1}`}
-            value={words[number]}
-            onChange={(e) => setWords(e.target.value)}
-            // setWords(
-            //   words.map((item) =>
-            //     item.id === number ? { ...item, words: e.target.value } : item
-            //   )
-            // )
-            //https://stackoverflow.com/questions/55987953/how-do-i-update-states-onchange-in-an-array-of-object-in-react-hooks
-          />
-          {words[number] === List[number] ? "Good Job!" : ""}
-        </div>
-      </>
+      <div key={id} className={styles.card5}>
+        <a style={{cursor:"pointer"}} onClick={() => new Audio(`${index + 1}.mp3`).play()}>
+          <Image src="/sound.png" width="30" height="30" />
+        </a>
+        <TextField
+          label={`Word ${index + 1}`}
+          value={value}
+          onChange={(e) => handleChangeWord(e, index)}
+        />
+        {value === palavra ? "Good Job!" : ""}
+      </div>
     );
   });
 
@@ -46,7 +45,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>My Favorite List {words[0]}</h1>
+        <h1 className={styles.title}>My Favorite List</h1>
 
         <Grid container direction="row" justify="center" alignItems="center">
           {data}
