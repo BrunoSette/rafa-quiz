@@ -14,6 +14,7 @@ export const list = [
   "wind",
   "with",
   "warm",
+  "wrong",
   "poem",
   "figurative",
   "alliteration",
