@@ -24,6 +24,13 @@ export default function Home() {
             </a>
           </div>
         </Grid>
+        <Grid container direction="row" justify="center" alignItems="center">
+          <div className={styles.grid}>
+            <a href="2" className={styles}>
+              <h2>Weather French</h2>
+            </a>
+          </div>
+        </Grid>
       </main>
     </div>
   );

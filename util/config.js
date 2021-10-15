@@ -55,3 +55,15 @@ export const list = [
   "click",
   "zap",
 ];
+
+export const frenchWeather = [
+  "beau",
+  "mauvais",
+  "chaud",
+  "froid",
+  "soleil",
+  "nuages",
+  "du vent",
+  "pleut",
+  "neige",
+];
