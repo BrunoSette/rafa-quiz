@@ -75,7 +75,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>French Weather ☁️ ❄️ ☀️ </h1>
+        <h1 className={styles.title}>🇫🇷 French Weather ☁️ ❄️ ☀️ </h1>
 
         <Grid container direction="row" justify="center" alignItems="center">
           {data}
