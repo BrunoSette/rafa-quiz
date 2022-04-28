@@ -22,7 +22,7 @@ export default function Home() {
         <Grid container direction="row" justify="center" alignItems="center">
           <div className={styles.grid}>
             <a href="1" className={styles}>
-              <h2>Section 5</h2>
+              <h2>May 2022 Words</h2>
             </a>
           </div>
         </Grid>

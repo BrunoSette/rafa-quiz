@@ -1,3 +1,6 @@
+//https://ttsmp3.com/
+//https://ttsmp3.com/text-to-speech/French/
+
 export const list = [
   "leaf", //1
   "leaves", //2
