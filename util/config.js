@@ -1,59 +1,22 @@
 export const list = [
-  "cold",
-  "line",
-  "funny",
-  "sad",
-  "draw",
-  "voice",
-  "sweet",
-  "happy",
-  "quickly",
-  "travel",
-  "mean",
-  "cried",
-  "wind",
-  "with",
-  "warm",
-  "wrong",
-  "poem",
-  "figurative",
-  "alliteration",
-  "concrete",
-  "list",
-  "stanza",
-  "enormous",
-  "humorous",
-  "jovial",
-  "voom",
-  "burp",
-  "poetry",
-  "rhyme",
-  "hyperbole",
-  "limerick",
-  "personification",
-  "syllable",
-  "frigid",
-  "amazing",
-  "whoosh",
-  "imagery",
-  "rhythm",
-  "simile",
-  "quatrain",
-  "cinquain",
-  "blustery",
-  "awesome",
-  "thrilling",
-  "annoyed",
-  "clack",
-  "repetition",
-  "onomatopeia",
-  "haiku",
-  "narrative",
-  "gigantic",
-  "fantastic",
-  "scary",
-  "click",
-  "zap",
+  "leaf", //1
+  "leaves", //2
+  "wolf", //3
+  "wolves", //4
+  "potato", //5
+  "potatoes", //6
+  "roof", //7 
+  "roofs", //8
+  "family", //9
+  "families", //10
+  "library", //11
+  "libraries", //12
+  "journey", //13
+  "journeys", //14
+  "hero", //15
+  "heros", //16
+  "ditch", //17
+  "ditches", //18
 ];
 
 export const frenchWeather = [
